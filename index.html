@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Cheatsheet</title>
+    <link rel="stylesheet" href="Resources/CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML & CSS Cheatsheet</h1>
+        <p>A quick reference guide to commonly used HTML elements and CSS selectors/properties.</p>
+
+        <div class="cheatsheet">
+            <div class="html-section">
+                <h2>HTML Elements Cheatsheet</h2>
+                <h3>Basic Structure</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>&lt;html&gt;</code></td>
+                            <td>Root element of an HTML document.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;head&gt;</code></td>
+                            <td>Contains metadata and links to external resources.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;body&gt;</code></td>
+                            <td>Contains the visible content of the document.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Text Elements</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>&lt;p&gt;</code></td>
+                            <td>Defines a paragraph.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;h1&gt; - &lt;h6&gt;</code></td>
+                            <td>Defines headings, from largest (<code>&lt;h1&gt;</code>) to smallest (<code>&lt;h6&gt;</code>).</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;a&gt;</code></td>
+                            <td>Defines a hyperlink.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;strong&gt;</code></td>
+                            <td>Indicates strong importance.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;em&gt;</code></td>
+                            <td>Indicates emphasized text.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;mark&gt;</code></td>
+                            <td>Highlights text.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;span&gt;</code></td>
+                            <td>Used for grouping inline content.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;code&gt;</code></td>
+                            <td>Denotes a fragment of code.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Media Elements</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>&lt;img&gt;</code></td>
+                            <td>Embeds an image.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;video&gt;</code></td>
+                            <td>Embeds a video file.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;audio&gt;</code></td>
+                            <td>Embeds an audio file.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Form Elements</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>&lt;form&gt;</code></td>
+                            <td>Defines a form.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;input&gt;</code></td>
+                            <td>Defines an input field.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;button&gt;</code></td>
+                            <td>Defines a clickable button.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;label&gt;</code></td>
+                            <td>Labels an input field.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="css-section">
+                <h2>CSS Selectors & Properties Cheatsheet</h2>
+                <h3>Selectors</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>*</code></td>
+                            <td>Universal selector, matches all elements.</td>
+                        </tr>
+                        <tr>
+                            <td><code>element</code></td>
+                            <td>Type selector, matches specific HTML elements (e.g., <code>div</code>).</td>
+                        </tr>
+                        <tr>
+                            <td><code>.class</code></td>
+                            <td>Class selector, matches elements with a specific class.</td>
+                        </tr>
+                        <tr>
+                            <td><code>#id</code></td>
+                            <td>ID selector, matches an element with a specific ID.</td>
+                        </tr>
+                        <tr>
+                            <td><code>element, element</code></td>
+                            <td>Group selector, matches multiple elements.</td>
+                        </tr>
+                        <tr>
+                            <td><code>element element</code></td>
+                            <td>Descendant selector, matches children of a specific element.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Properties</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>color</code></td>
+                            <td>Sets the text color.</td>
+                        </tr>
+                        <tr>
+                            <td><code>background-color</code></td>
+                            <td>Sets the background color.</td>
+                        </tr>
+                        <tr>
+                            <td><code>font-size</code></td>
+                            <td>Sets the size of the text.</td>
+                        </tr>
+                        <tr>
+                            <td><code>margin</code></td>
+                            <td>Sets the outer spacing around an element.</td>
+                        </tr>
+                        <tr>
+                            <td><code>padding</code></td>
+                            <td>Sets the inner spacing inside an element.</td>
+                        </tr>
+                        <tr>
+                            <td><code>border</code></td>
+                            <td>Sets the border around an element.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+</html>
+

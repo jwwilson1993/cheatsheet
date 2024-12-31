@@ -1,0 +1,55 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #300000;
+    color: #00bdbd;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #6d3d3d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #00bdbd;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0px;
+}
+table, th, td {
+    border: 2px solid #000000;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #ad2c2c;
+}
+code {
+    background: #3d0000;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: monospace;
+}
+h3 {
+    background-image: url(../images/cool-banner.avif);
+    padding: 20px;
+    color: lightsteelblue;
+    text-align: center;
+    margin: 0;
+}
+p {
+    text-align: center;
+}
